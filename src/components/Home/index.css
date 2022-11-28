@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.ipl-teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.iplLogo {
+  height: 5%;
+  width: 5%;
+  margin-top: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.heading-1 {
+  font-size: 40px;
+}
+
+@media (max-width: 680px) {
+  .heading-1 {
+    font-size: 30px;
+  }
+
+  .iplLogo {
+    height: 5%;
+    width: 5%;
+  }
+}

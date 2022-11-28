@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.team-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: Bree Serif;
+}
+
+.link-items {
+  text-decoration: none;
+  color: #ffffff;
+  height: 100%;
+  width: 40%;
+  margin: 10px;
+  background-color: #ffffff33;
+  box-shadow: 0 0 10px;
+}
+.heading3 {
+  font-size: 30px;
+  width: 40%;
+}
+.teamcard {
+  height: 40%;
+  width: 40%;
+}
+
+@media (max-width: 680px) {
+  .link-items {
+    text-decoration: none;
+    color: #ffffff;
+    height: 80%;
+    width: 40%;
+    margin: 10px;
+  }
+
+  .heading3 {
+    font-size: 10px;
+    width: 30%;
+    height: 150%;
+  }
+}

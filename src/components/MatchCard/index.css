@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.match-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1e293b;
+  background-color: #1e293b;
+  margin: 10px;
+  width: 30%;
+  border-radius: 10px;
+}
+@media (max-width: 680px) {
+  .ct-team {
+    font-size: 15px;
+  }
+  .match-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1e293b;
+    background-color: #1e293b;
+    margin: 10px;
+    width: 40%;
+    border-radius: 10px;
+  }
+}
+
+.green {
+  color: green;
+  font-size: 20px;
+}
+
+.red {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}

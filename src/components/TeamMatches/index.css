@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.latest-match {
+  display: flex;
+  flex-wrap: wrap;
+}
+.teamMatch-container {
+  width: 90%;
+}
+.teamBanner {
+  margin-top: 10px;
+  width: 95%;
+}
